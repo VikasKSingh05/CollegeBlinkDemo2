@@ -478,6 +478,8 @@ export default function CollegePage() {
                   </div>
                 ))}
               </section>
+
+              <Newsletter />
             </div>
 
             {/* Sidebar */}
@@ -530,10 +532,6 @@ export default function CollegePage() {
         </div>
       </div>
 
-      {/* Newsletter */}
-      <div className="mx-auto max-w-6xl px-4">
-        <Newsletter />
-      </div>
     </main>
   );
 }
