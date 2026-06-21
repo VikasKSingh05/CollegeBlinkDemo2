@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-heading: 'Sora', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-accent: #6366f1;
+  --color-muted-foreground: #6b7280;
+  --color-border: #e5e7eb;
+}
+
+.dark {
+  --color-muted-foreground: #9ca3af;
+  --color-border: #374151;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.dark .glass-card {
+  background: rgba(17, 24, 39, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(24px);
+}
+
+.dark .glass-nav {
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(24px);
+}
