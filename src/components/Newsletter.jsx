@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Newsletter() {
   return (
-    <div className="glass-card mx-auto mb-12 max-w-5xl overflow-hidden rounded-2xl border border-border/60 p-8 lg:p-10">
+    <div className="glass-card mx-auto mb-12 max-w-5xl overflow-hidden rounded-2xl border border-border/60 p-6 lg:p-8">
       <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-2xl">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-500/25 bg-cyan-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-cyan-700 dark:text-cyan-200">

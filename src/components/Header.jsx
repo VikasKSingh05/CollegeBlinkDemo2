@@ -6,7 +6,6 @@ import {
   Sun,
   Menu,
   X,
-  GraduationCap,
   Megaphone,
 } from "lucide-react";
 
@@ -41,9 +40,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-border/70 glass-nav">
       <div className="container mx-auto flex h-[4.5rem] items-center justify-between gap-4 px-4 py-3">
         <a href="#" className="flex items-center gap-3">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-cyan-400 text-white shadow-lg">
-            <GraduationCap className="h-6 w-6" />
-          </div>
+          <img src="/image.png" alt="CollegeBlink" className="h-12 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-1 rounded-full border border-border/70 bg-white/60 p-1 shadow-sm backdrop-blur-xl dark:bg-gray-800/60 md:flex">

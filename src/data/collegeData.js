@@ -58,7 +58,7 @@ export const collegeData = {
       program: "Computer Science and Engineering",
       rating: 5,
       title: "Excellent institution for engineering education",
-      body: "IIT Madras exceeded all my expectations. The Computer Science department has some of the brightest minds in the country as faculty. I got the opportunity to work on cutting-edge AI research as an undergraduate student. The placement scenario is phenomenal. Top companies like Google, Microsoft, and Goldman Sachs actively recruit here. The peer group is incredibly talented - the competition keeps you on your toes constantly. Chennai as a location is great - affordable living costs, great food, and the campus is beautiful with the Guindy National Park nearby. The incubation cell helped me explore my startup idea. My only suggestion would be to improve mental health counseling services, as the academic pressure can be overwhelming at times."
+      body: "World-class faculty and cutting-edge AI research opportunities. Placements are phenomenal with top recruiters like Google and Goldman Sachs. The campus is beautiful and the peer group keeps you on your toes."
     }
   ],
   placementHistory: [

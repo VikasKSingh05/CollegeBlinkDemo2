@@ -1,4 +1,4 @@
-import { GraduationCap, Mail, Phone, MapPin, ArrowUp } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUp } from "lucide-react";
 
 const productLinks = [
   "College Search",
@@ -21,13 +21,11 @@ export default function Footer() {
     <footer className="relative overflow-hidden border-t border-border/70 bg-white dark:bg-gray-900">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(99,102,241,0.18),transparent_28%),radial-gradient(circle_at_top_right,rgba(34,211,238,0.14),transparent_24%)]" />
 
-      <div className="container relative mx-auto px-4 py-16">
+      <div className="container relative mx-auto px-4 py-12">
         <div className="mb-12 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-3">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-cyan-400 text-white shadow-lg">
-                <GraduationCap className="h-8 w-8" />
-              </div>
+              <img src="/image.png" alt="CollegeBlink" className="h-14 w-auto" />
             </a>
             <p className="mt-5 max-w-sm text-sm leading-7 text-gray-500 dark:text-gray-400">
               Smart-powered college discovery for Indian students.
